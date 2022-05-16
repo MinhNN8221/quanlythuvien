@@ -1,0 +1,52 @@
+.formedit{
+    margin: 25px 425px;
+    width: 400px;
+    height: 450px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.formadd{
+    margin: 25px 425px;
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.title{
+    border: 1px solid gray;
+    background-color: #2196F3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khung{
+    padding: 0 25px;
+}
+.input, select{
+    width: 23em;
+    height: 2em;
+    font-size: 15px;
+}
+.success{
+    text-align: center;
+}
+.submit{
+    margin-top: 20px;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#date {
+    width: 23em;
+    font-size: 15px;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+.head {
+    text-align: center;
+    background-color: #2196F3;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head a{
+    padding: 15px 30px;
+    width: 100%
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover,.dropdown .nut_dropdown:hover{
+    background-color: cadetblue;
+}
+/*nút dropdown*/
+.dropdown .nut_dropdown{
+    border: none;
+    font-size:inherit;
+    text-align: center;
+    height: 50px;
+    padding: 15px 30px;
+    width: 100%;
+    width: 210px;
+    background-color: #2196F3;
+}
+/*ẩn nội dung dropdown*/
+.noidung_dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 210px;
+    box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/*thiết lập style cho đường dẫn bên trong dropdown*/
+.noidung_dropdown a{
+    float: none;
+    color: black;
+    width: 200px;
+    padding: 15px 5px;
+    display: block;
+    text-align: left;
+}
+/*hiển thị */
+.dropdown:hover .noidung_dropdown{
+    display: block;
+}
+
+.about {
+    margin-top: 20px;
+    padding-left: 15%;
+}
+
+.about ul {
+    margin-top: 10px;
+    padding-left: 4em;
+}
