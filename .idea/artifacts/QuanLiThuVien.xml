@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="demo2:war">
+  <artifact type="war" name="QuanLiThuVien">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>

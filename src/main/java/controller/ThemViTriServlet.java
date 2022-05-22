@@ -27,6 +27,7 @@ public class ThemViTriServlet extends HttpServlet {
             String vitri = request.getParameter("vitri");
             Vitri.setTen_vt(vitri);
             int result = db_vitri.getThemvitri(Vitri);
+            request.setAttribute("err", "Thêm vị trí thành công");
         }
         doGet(request, response);
     }

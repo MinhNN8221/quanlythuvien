@@ -4,6 +4,7 @@ import DAO.DBQlSinh_vien;
 import DAO.DBQl_muon;
 import DAO.DBQl_sach;
 import Model.Muon_sach;
+import Model.Nhan_vien;
 import Model.Sach;
 import Model.Sinh_vien;
 
@@ -25,6 +26,7 @@ public class ThemsvServlet extends HttpServlet {
         DBQlSinh_vien dbQlSinh_vien=new DBQlSinh_vien();
         Muon_sach muon_sach=new Muon_sach();
         Sach sach=new Sach();
+        Nhan_vien nhan_vien=new Nhan_vien();
         if(request.getParameter("themsv")!=null){
             String ten_sv=request.getParameter("tensv");
             String ma_sv=request.getParameter("masv");
@@ -32,7 +34,8 @@ public class ThemsvServlet extends HttpServlet {
             String email=request.getParameter("email");
             int id=Integer.valueOf((String)request.getParameter("sach"));
             String ngay_tra=request.getParameter("date");
-            Sinh_vien sinh_vien=new Sinh_vien(ma_sv, ten_sv, lop, email);
+            nhan_vien.setId_nv(1);
+            Sinh_vien sinh_vien=new Sinh_vien(ma_sv, ten_sv, lop, email, nhan_vien);
             sach.setId(id);
             muon_sach.setSach(sach);
             muon_sach.setSinh_vien(sinh_vien);

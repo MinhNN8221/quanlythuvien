@@ -11,6 +11,7 @@
     <%@include file="header.jsp" %>
 </head>
 <body>
+<h3 class="success" style="color: rgba(8, 245, 221, 0.8);">${err}</h3>
 <div class="formedit"  style="height: 230px;">
     <div class="title">
         <h3>Thêm tác giả</h3>

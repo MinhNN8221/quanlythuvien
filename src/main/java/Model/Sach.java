@@ -7,11 +7,12 @@ public class Sach {
     private Tac_gia tac_gia;
     private String ten_sach;
     private int sl_bd, sl_cl;
+    private Nhan_vien nhan_vien;
 
     public Sach() {
     }
 
-    public Sach(int id, Loai_sach loai_sach, Vi_tri vi_tri, Tac_gia tac_gia, String ten_sach, int sl_bd, int sl_cl) {
+    public Sach(int id, Loai_sach loai_sach, Vi_tri vi_tri, Tac_gia tac_gia, String ten_sach, int sl_bd, int sl_cl, Nhan_vien nhan_vien) {
         this.id = id;
         this.loai_sach = loai_sach;
         this.vi_tri = vi_tri;
@@ -19,6 +20,7 @@ public class Sach {
         this.ten_sach = ten_sach;
         this.sl_bd = sl_bd;
         this.sl_cl = sl_cl;
+        this.nhan_vien=nhan_vien;
     }
 
     public int getId() {
@@ -75,5 +77,13 @@ public class Sach {
 
     public void setSl_cl(int sl_cl) {
         this.sl_cl = sl_cl;
+    }
+
+    public Nhan_vien getNhan_vien() {
+        return nhan_vien;
+    }
+
+    public void setNhan_vien(Nhan_vien nhan_vien) {
+        this.nhan_vien = nhan_vien;
     }
 }

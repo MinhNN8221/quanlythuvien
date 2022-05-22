@@ -1,10 +1,7 @@
 package controller;
 
 import DAO.DBQl_sach;
-import Model.Loai_sach;
-import Model.Sach;
-import Model.Tac_gia;
-import Model.Vi_tri;
+import Model.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,6 +22,7 @@ public class ThemsachServlet extends HttpServlet {
         Loai_sach loai_sach=new Loai_sach();
         Tac_gia tac_gia=new Tac_gia();
         Vi_tri vi_tri=new Vi_tri();
+        Nhan_vien nhan_vien=new Nhan_vien();
         if(request.getParameter("themsach")!=null){
             String tensach=request.getParameter("tensach");
             int id_ls=Integer.valueOf((String)request.getParameter("loaisach"));
@@ -41,6 +39,8 @@ public class ThemsachServlet extends HttpServlet {
             sach.setVi_tri(vi_tri);
             sach.setSl_bd(sl_bd);
             sach.setSl_cl(sl_cl);
+            nhan_vien.setId_nv(1);
+            sach.setNhan_vien(nhan_vien);
 //            if(listsach.contains("Lập trình")){
 //                request.setAttribute("err", "Tên sách bị trùng");
 //            }else{

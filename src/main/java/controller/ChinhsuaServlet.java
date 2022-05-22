@@ -1,10 +1,7 @@
 package controller;
 
 import DAO.DBQl_sach;
-import Model.Loai_sach;
-import Model.Sach;
-import Model.Tac_gia;
-import Model.Vi_tri;
+import Model.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,6 +19,7 @@ public class ChinhsuaServlet extends HttpServlet {
         DBQl_sach dbQl_sach=new DBQl_sach();
         Loai_sach loai_sach=new Loai_sach();
         Vi_tri vi_tri=new Vi_tri();
+        Nhan_vien nhan_vien=new Nhan_vien();
         Tac_gia tac_gia=new Tac_gia();
         int id=Integer.valueOf(request.getParameter("id"));
         int id_tl=Integer.valueOf(request.getParameter("loaisach"));
@@ -33,7 +31,8 @@ public class ChinhsuaServlet extends HttpServlet {
         loai_sach.setId_ls(id_tl);
         vi_tri.setId_vt(id_vt);
         tac_gia.setId_tg(id_tg);
-        Sach sach=new Sach(id, loai_sach, vi_tri, tac_gia, ten_sach, sl_bd, sl_cl);
+        nhan_vien.setId_nv(1);
+        Sach sach=new Sach(id, loai_sach, vi_tri, tac_gia, ten_sach, sl_bd, sl_cl,nhan_vien);
         dbQl_sach.getUpdate(sach);
         request.setAttribute("err", "Cập nhật thành công");
         doGet(request, response);

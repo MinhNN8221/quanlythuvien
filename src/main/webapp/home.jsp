@@ -9,7 +9,7 @@
 <html>
 <%@include file="header.jsp"%>
 <body>
-    <h1 style="text-align: center; margin-top: 30px;">Quản lý thư viện</h1>
+    <h1 style="text-align: center; margin-top: 30px;">Quản Lí Thư Viện</h1>
     <div class="about">
         <h2>Danh sách thành viên nhóm 3:</h2>
         <ul>

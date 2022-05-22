@@ -1,5 +1,6 @@
 package DAO;
 
+import Model.Nhan_vien;
 import Model.Sinh_vien;
 
 import java.sql.PreparedStatement;
@@ -17,7 +18,10 @@ public class DBQlSinh_vien {
                 String ten=res.getString(2);
                 String lop=res.getString(3);
                 String email=res.getString(4);
-                Sinh_vien sinh_vien=new Sinh_vien(ma, ten, lop, email);
+                int id_nv=res.getInt(5);
+                Nhan_vien nhan_vien=new Nhan_vien();
+                nhan_vien.setId_nv(id_nv);
+                Sinh_vien sinh_vien=new Sinh_vien(ma, ten, lop, email, nhan_vien);
                 return sinh_vien;
             }
         }catch (Exception e){
@@ -27,7 +31,7 @@ public class DBQlSinh_vien {
     }
     public void getThemsv(Sinh_vien sinh_vien){
         try {
-            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO sinh_vien VALUES (?, ?, ?, ?)");
+            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO sinh_vien VALUES (?, ?, ?, ?, 1)");
             pre.setString(1, sinh_vien.getMa_sv());
             pre.setString(2, sinh_vien.getTen_sv());
             pre.setString(3, sinh_vien.getLop());

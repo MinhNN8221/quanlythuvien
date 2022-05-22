@@ -28,6 +28,7 @@ public class ThemTacGiaServlet extends HttpServlet {
             tacgia.setTen_tg(tac_gia);
             tacgia.setDia_chi(diachi);
             int result = db_tacgia.getThemtacgia(tacgia);
+            request.setAttribute("err", "Thêm tác giả thành công");
         }
         doGet(request, response);
     }

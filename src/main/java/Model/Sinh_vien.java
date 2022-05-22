@@ -2,15 +2,17 @@ package Model;
 
 public class Sinh_vien {
     private String ma_sv, ten_sv, lop, email;
+    private Nhan_vien nhan_vien;
 
     public Sinh_vien() {
     }
 
-    public Sinh_vien(String ma_sv, String ten_sv, String lop, String email) {
+    public Sinh_vien(String ma_sv, String ten_sv, String lop, String email, Nhan_vien nhan_vien) {
         this.ma_sv = ma_sv;
         this.ten_sv = ten_sv;
         this.lop = lop;
         this.email = email;
+        this.nhan_vien=nhan_vien;
     }
 
     public String getMa_sv() {
@@ -43,5 +45,13 @@ public class Sinh_vien {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Nhan_vien getNhan_vien() {
+        return nhan_vien;
+    }
+
+    public void setNhan_vien(Nhan_vien nhan_vien) {
+        this.nhan_vien = nhan_vien;
     }
 }

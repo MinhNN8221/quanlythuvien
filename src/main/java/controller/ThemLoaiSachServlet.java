@@ -26,6 +26,7 @@ public class ThemLoaiSachServlet extends HttpServlet {
             String loaisach = request.getParameter("loaisach");
             loaiSach.setTen_ls(loaisach);
             dbLoai_sach.getThemloaisach(loaiSach);
+            request.setAttribute("err", "Thêm loại sách thành công");
         }
         doGet(request, response);
     }

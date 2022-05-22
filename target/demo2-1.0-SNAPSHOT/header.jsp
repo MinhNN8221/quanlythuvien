@@ -20,11 +20,11 @@
     <a href="home.jsp"><i class="fas fa-home"></i>Trang chủ</a>
     <a href="${pageContext.request.contextPath}/qlsach">Quản lý sách</a>
     <div class="dropdown">
-        <button class="nut_dropdown">Thông tin sách</button>
+        <button class="nut_dropdown">Thêm thông tin sách</button>
         <div class="noidung_dropdown">
-            <a href="themloaisach.jsp">Thể loại</a>
-            <a href="themtacgia.jsp">Tác giả</a>
-            <a href="themvitri.jsp">Vị trí</a>
+            <a href="${pageContext.request.contextPath}/themloaisach">Thêm thể loại</a>
+            <a href="${pageContext.request.contextPath}/themtacgia">Thêm tác giả</a>
+            <a href="${pageContext.request.contextPath}/themvitri">Thêm vị trí</a>
         </div>
     </div>
     <div class="dropdown">
