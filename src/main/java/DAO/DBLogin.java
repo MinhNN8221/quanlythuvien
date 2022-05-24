@@ -17,7 +17,6 @@ public class DBLogin {
     private final DB db=new DB();
     public boolean check(String user, String pass){
         try {
-
             PreparedStatement pre=db.getCon().prepareStatement("SELECT ten_tk, mk from nhan_vien where ten_tk=? and mk=?");
             pre.setString(1, user);
             pre.setString(2, pass);

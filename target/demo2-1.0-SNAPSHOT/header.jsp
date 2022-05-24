@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/ql_sach.css">
     <link rel="stylesheet" href="./css/chinhsua_sach.css">
+    <link rel="stylesheet" href="./css/login.css">
     <script src="https://kit.fontawesome.com/8318d3271c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -36,17 +37,21 @@
             </div>
         </div>
     </div>
-
     <a href="${pageContext.request.contextPath}/themsv">Thêm người đọc</a>
+    <c:if test="${username==null}">
+        <a href="login.jsp"><i class="far fa-user"></i>Đăng nhập</a>
+    </c:if>
+    <c:if test="${username!=null}">
     <div class="dropdown">
-        <button class="nut_dropdown"><i class="far fa-user"></i> Tài khoản</button>
+        <button class="nut_dropdown"><i class="far fa-user"></i>${username}</button>
         <div>
             <div class="noidung_dropdown">
 <%--                <a href="#">Đổi mật khẩu</a>--%>
-                <a href="login.jsp">Đăng xuất</a>
+                <a href="${pageContext.request.contextPath}/dangxuat">Đăng xuất</a>
             </div>
         </div>
     </div>
+    </c:if>
 </div>
 </body>
 </html>

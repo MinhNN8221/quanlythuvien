@@ -10,46 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af4b3969-cf88-44dc-ab20-c65bb299c0e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Nhan_vien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo2_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/QuanLiThuVien.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/demo2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLiThuVien.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBQlSinh_vien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBQlSinh_vien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBQl_sach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBQl_sach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Sach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Sach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Sinh_vien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Sinh_vien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ChinhsuaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ChinhsuaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLiThuVien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLiThuVien.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/QL_muonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/QL_muonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/QL_sachServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/QL_sachServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/QL_traServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/QL_traServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThemLoaiSachServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThemLoaiSachServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThemTacGiaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThemTacGiaServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThemViTriServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThemViTriServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThemsachServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThemsachServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ThemsvServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ThemsvServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/ql_sach.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/ql_sach.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/chitiet_sv.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chitiet_sv.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/them_ngdoc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/them_ngdoc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/themloaisach.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/themloaisach.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/themtacgia.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/themtacgia.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/themvitri.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/themvitri.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/DBQlSinh_vien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/DBQlSinh_vien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/DBQl_sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/DBQl_sach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Sach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Sinh_vien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Sinh_vien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ChinhsuaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ChinhsuaServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemsachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemsachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/DBLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/DBLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ControllerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/QL_muonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/QL_muonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/QL_sachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/QL_sachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/QL_traServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/QL_traServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemLoaiSachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemLoaiSachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemTacGiaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemTacGiaServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemViTriServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemViTriServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemsvServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemsvServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQlSinh_vien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQlSinh_vien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_sach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/Model/Sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/Model/Sach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/Model/Sinh_vien.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/Model/Sinh_vien.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ChinhsuaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ChinhsuaServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ControllerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_muonServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_muonServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_sachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_sachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_traServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/QL_traServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemLoaiSachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemLoaiSachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemTacGiaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemTacGiaServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemViTriServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemViTriServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsvServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsvServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +73,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/ds_muon.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -96,12 +106,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Java/LIB_JAVA/servlet-api-2.5.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../QuanLyThuVienJSPServletMVC-main/QuanLyThuVienJSPServletMVC-main/Source Code/QuanLyThuVien" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30804598" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -115,55 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="QuanLiThuVien" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="QuanLiThuVien" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/QuanLiThuVien/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/QuanLiThuVien" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="QuanLiThuVien">
@@ -173,7 +136,9 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_62_ttcs-main" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_62_ttcs-main_4" />
+        <option name="HTTP_PORT" value="8080" />
+        <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -317,82 +282,107 @@
       <workItem from="1652697029566" duration="1236000" />
       <workItem from="1652775701500" duration="56000" />
       <workItem from="1653062525179" duration="205000" />
-      <workItem from="1653208253502" duration="5970000" />
+      <workItem from="1653208253502" duration="6643000" />
+      <workItem from="1653237180238" duration="635000" />
+      <workItem from="1653280127787" duration="1106000" />
+      <workItem from="1653281260980" duration="423000" />
+      <workItem from="1653295821718" duration="4301000" />
+      <workItem from="1653408613700" duration="34000" />
+      <workItem from="1653410403992" duration="897000" />
+      <workItem from="1653412023088" duration="7884000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/demo_proj_ttcs" />
+      <path value="$PROJECT_DIR$/ttcs" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653215861686">
+    <state x="133" y="0" key="#Project_Structure" timestamp="1653281201301">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653215861686" />
+    <state x="133" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1653281201301" />
+    <state x="574" y="219" key="#Tomcat_Server" timestamp="1653281166488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="574" y="219" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1653281166488" />
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653412419324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653412419324" />
     <state x="458" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1653209410001">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1653209410001" />
-    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1653215773994">
+    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1653281169062">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1653215773994" />
-    <state x="490" y="72" key="FileChooserDialogImpl" timestamp="1653215796019">
+    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1653281169062" />
+    <state x="490" y="72" key="FileChooserDialogImpl" timestamp="1653411428623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="490" y="72" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1653215796019" />
-    <state width="834" height="289" key="GridCell.Tab.0.bottom" timestamp="1653215844934">
+    <state x="490" y="72" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1653411428623" />
+    <state width="845" height="149" key="GridCell.Tab.0.bottom" timestamp="1653420043604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.0.center" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653420043604" />
+    <state width="845" height="149" key="GridCell.Tab.0.center" timestamp="1653420043604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.0.left" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653420043604" />
+    <state width="845" height="149" key="GridCell.Tab.0.left" timestamp="1653420043603">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.0.right" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653420043603" />
+    <state width="845" height="149" key="GridCell.Tab.0.right" timestamp="1653420043604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.1.bottom" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653420043604" />
+    <state width="845" height="149" key="GridCell.Tab.1.bottom" timestamp="1653420043605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.1.center" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653420043605" />
+    <state width="845" height="149" key="GridCell.Tab.1.center" timestamp="1653420043605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.1.left" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1653420043605" />
+    <state width="845" height="149" key="GridCell.Tab.1.left" timestamp="1653420043605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.1.right" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1653420043605" />
+    <state width="845" height="149" key="GridCell.Tab.1.right" timestamp="1653420043605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.2.bottom" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1653420043605" />
+    <state width="845" height="149" key="GridCell.Tab.2.bottom" timestamp="1653420043606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.2.center" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653420043606" />
+    <state width="845" height="149" key="GridCell.Tab.2.center" timestamp="1653420043606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.2.left" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1653420043606" />
+    <state width="845" height="149" key="GridCell.Tab.2.left" timestamp="1653420043606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state width="834" height="289" key="GridCell.Tab.2.right" timestamp="1653215844934">
+    <state width="845" height="149" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1653420043606" />
+    <state width="845" height="149" key="GridCell.Tab.2.right" timestamp="1653420043606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="834" height="289" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1653215844934" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1653214190477">
+    <state width="845" height="149" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1653420043606" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1653281277365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1653214190477" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1653281277365" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1653322177783">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653322177783" />
     <state x="312" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652698274655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -5,8 +5,22 @@
          version="4.0">
     <welcome-file-list>
         <welcome-file>index.htm</welcome-file>
-        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>home.jsp</welcome-file>
         <welcome-file>default.htm</welcome-file>
         <welcome-file>default.jsps</welcome-file>
     </welcome-file-list>
+<!--    <session-config>-->
+<!--        <session-timeout>-->
+<!--            1-->
+<!--        </session-timeout>-->
+<!--    </session-config>-->
+<!--    <security-constraint>-->
+<!--        <web-resource-collection>-->
+<!--            <web-resource-name>ERP APPLICATION</web-resource-name>-->
+<!--            <url-pattern>/*</url-pattern>-->
+<!--        </web-resource-collection>-->
+<!--        <user-data-constraint>-->
+<!--            <transport-guarantee>CONFIDENTIAL</transport-guarantee>-->
+<!--        </user-data-constraint>-->
+<!--    </security-constraint>-->
 </web-app>

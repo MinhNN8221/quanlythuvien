@@ -20,7 +20,12 @@ public class QL_sachServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DBQl_sach dbQl_sach=new DBQl_sach();
         List<Sach> list=dbQl_sach.getAllsach();
+        if(request.getSession().getAttribute("username")!=null){
         request.setAttribute("bookList", list);
-        request.getRequestDispatcher("ql_sach.jsp").forward(request, response);
+        request.getRequestDispatcher("ql_sach.jsp").forward(request, response);}
+        else{
+            request.setAttribute("err", "Bạn cần đăng nhập trước");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
     }
 }

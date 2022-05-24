@@ -13,7 +13,13 @@ import java.io.IOException;
 public class ThemLoaiSachServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("themloaisach.jsp").forward(request, response);
+        if(request.getSession().getAttribute("username")==null){
+            request.setAttribute("err", "Bạn cần đăng nhập trước");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
+        else{
+            request.getRequestDispatcher("themloaisach.jsp").forward(request, response);
+        }
     }
 
     @Override

@@ -30,9 +30,15 @@ public class QL_muonServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        DBQl_muon dbQl_muon=new DBQl_muon();
-        List<Muon_sach> list=dbQl_muon.getDsmuon("0");
-        request.setAttribute("muonList", list);
-        request.getRequestDispatcher("ds_muon.jsp").forward(request, response);
+        if(request.getSession().getAttribute("username")==null){
+            request.setAttribute("err", "Bạn cần đăng nhập trước");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
+        else{
+            DBQl_muon dbQl_muon=new DBQl_muon();
+            List<Muon_sach> list=dbQl_muon.getDsmuon("0");
+            request.setAttribute("muonList", list);
+            request.getRequestDispatcher("ds_muon.jsp").forward(request, response);
+        }
     }
 }

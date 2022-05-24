@@ -67,9 +67,15 @@ public class ThemsvServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        DBQl_sach dbQl_sach=new DBQl_sach();
-        List<Sach> list=dbQl_sach.getAllsach();
-        request.setAttribute("listsach", list);
-        request.getRequestDispatcher("them_ngdoc.jsp").forward(request, response);
+        if(request.getSession().getAttribute("username")==null){
+            request.setAttribute("err", "Bạn cần đăng nhập trước");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
+        else {
+            DBQl_sach dbQl_sach = new DBQl_sach();
+            List<Sach> list = dbQl_sach.getAllsach();
+            request.setAttribute("listsach", list);
+            request.getRequestDispatcher("them_ngdoc.jsp").forward(request, response);
+        }
     }
 }

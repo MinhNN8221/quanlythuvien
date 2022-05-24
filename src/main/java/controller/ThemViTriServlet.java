@@ -14,7 +14,12 @@ import java.io.IOException;
 public class ThemViTriServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("themvitri.jsp").forward(request, response);
+        if (request.getSession().getAttribute("username") == null) {
+            request.setAttribute("err", "Bạn cần đăng nhập trước");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        } else {
+            request.getRequestDispatcher("themvitri.jsp").forward(request, response);
+        }
     }
 
     @Override

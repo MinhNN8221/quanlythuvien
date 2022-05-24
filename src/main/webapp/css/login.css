@@ -1,16 +1,23 @@
-* {
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: Arial, Helvetica, sans-serif;*/
+/*}*/
+
+#main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
     display: flex;
     justify-content: center;
     background-color: rgba(172, 171, 171, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
-
+#err{
+    margin-top: 15px;
+}
 #login{
     margin-top: 100px;
     width: 40%;
