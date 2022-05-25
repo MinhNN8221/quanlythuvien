@@ -45,7 +45,15 @@
     border: none;
     border-radius: 5px;
 }
-
+.quaylai{
+    margin-top: 10px;
+    background-color: #2196F3;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
 #date {
     width: 23em;
     font-size: 15px;

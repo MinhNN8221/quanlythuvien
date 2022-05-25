@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/ql_sach.css">
     <link rel="stylesheet" href="./css/chinhsua_sach.css">
-    <link rel="stylesheet" href="./css/login.css">
+<%--    <link rel="stylesheet" href="./css/login.css">--%>
     <script src="https://kit.fontawesome.com/8318d3271c.js" crossorigin="anonymous"></script>
 </head>
 <body>

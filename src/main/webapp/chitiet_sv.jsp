@@ -39,6 +39,7 @@
             </tr>
         </tbody>
     </table>
+    <input type="button" value="Trở lại" class="quaylai" width="20px" onclick="location.href='${pageContext.request.contextPath}/qlmuon'">
 </div>
 </div>
 </body>

@@ -24,7 +24,7 @@ public class GuiEmailServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("utf-8");
         final String username = "itptit104@gmail.com";
-        final String password = "a1234567a";
+        final String password = "a1234567@";
         Properties pro = new Properties();
         pro.put("mail.smtp.host", "smtp.gmail.com");
         pro.put("mail.smtp.port", "587");
@@ -40,10 +40,10 @@ public class GuiEmailServlet extends HttpServlet {
         DBQl_muon dbQl_muon=new DBQl_muon();
         DBQlSinh_vien dbQlSinh_vien=new DBQlSinh_vien();
         Sinh_vien sinh_vien=dbQlSinh_vien.getTen_sv(ma_sv);
-        System.out.println(sinh_vien.getMa_sv()+" "+sinh_vien.getEmail());
+        System.out.println(sinh_vien.getMa_sv()+" "+sinh_vien.getEmail()+" "+sinh_vien.getTen_sv());
         String emailTo=sinh_vien.getEmail();
-        String emailSubject="Thông báo từ thư viện PTIT";
-        String emailContent="Chào bạn "+sinh_vien.getTen_sv()+", bạn có lịch trả sách vào ngày "+dbQl_muon.Ngay_tra(ma_sv);
+        String emailSubject="Thong bao tu thu vien PTIT";
+        String emailContent="Chao ban, ban co lich tra sach vao ngay "+dbQl_muon.Ngay_tra(ma_sv)+". Vui long mang sach den thu vien PTIT tra truoc thoi han.";
         try {
             Message message=new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
