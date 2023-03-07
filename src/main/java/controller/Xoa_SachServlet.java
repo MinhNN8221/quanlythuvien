@@ -15,9 +15,13 @@ public class Xoa_SachServlet extends HttpServlet {
         DBQl_sach dbQl_sach=new DBQl_sach();
         if(request.getParameter("xoa")!=null){
             int id=Integer.valueOf((String)request.getParameter("xoa"));
-            dbQl_sach.getXoasach(id);
-            request.setAttribute("err", "Xóa sách thành công");
-            request.getRequestDispatcher("/qlsach").forward(request, response);
+            if(dbQl_sach.getXoasach(id)){
+                request.setAttribute("err", "Xóa sách thành công");
+                request.getRequestDispatcher("/qlsach").forward(request, response);
+            }else{
+                request.setAttribute("err", "Sách bạn xóa đang có sinh viên mượn");
+                request.getRequestDispatcher("/qlsach").forward(request, response);
+            }
         }
     }
 

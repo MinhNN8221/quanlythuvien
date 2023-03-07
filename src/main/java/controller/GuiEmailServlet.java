@@ -24,7 +24,7 @@ public class GuiEmailServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("utf-8");
         final String username = "itptit104@gmail.com";
-        final String password = "a1234567@";
+        final String password = "uwscawvvdbzdgjrs";
         Properties pro = new Properties();
         pro.put("mail.smtp.host", "smtp.gmail.com");
         pro.put("mail.smtp.port", "587");

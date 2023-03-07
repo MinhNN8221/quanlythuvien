@@ -55,6 +55,7 @@ public class ThemsvServlet extends HttpServlet {
                     dbQl_muon.getThem(muon_sach);
                     request.setAttribute("success", "Thêm thông tin sinh viên mượn sách thành công");
                     dbQl_sach.getUpdateSlg(dbQl_sach.getSlgclai(id)-1,id);
+                    System.out.println(dbQl_muon.getLuotmuon(ma_sv));
                     dbQl_muon.getUpdateLuot(ma_sv, dbQl_muon.getLuotmuon(ma_sv)+1);
                 }else{
                     request.setAttribute("error", "Sách bạn muốn mượn tạm hết!");
