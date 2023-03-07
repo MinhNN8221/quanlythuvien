@@ -12,7 +12,7 @@ public class DBQlSinh_vien {
     public Sinh_vien getTen_sv(String masv){
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet res=st.executeQuery("SELECT * FROM sinh_vien where ma_sv='"+masv+"'");
+            ResultSet res=st.executeQuery("SELECT * FROM ttcs.sinh_vien where ma_sv='"+masv+"'");
             while (res.next()){
                 String ma=res.getString(1);
                 String ten=res.getString(2);
@@ -31,7 +31,7 @@ public class DBQlSinh_vien {
     }
     public void getThemsv(Sinh_vien sinh_vien){
         try {
-            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO sinh_vien VALUES (?, ?, ?, ?, 1)");
+            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO ttcs.sinh_vien VALUES (?, ?, ?, ?, 1)");
             pre.setString(1, sinh_vien.getMa_sv());
             pre.setString(2, sinh_vien.getTen_sv());
             pre.setString(3, sinh_vien.getLop());
@@ -45,7 +45,7 @@ public class DBQlSinh_vien {
         String masv=null;
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet res=st.executeQuery("SELECT ma_sv from muon where id_muon='"+id_muon+"'");
+            ResultSet res=st.executeQuery("SELECT ma_sv from ttcs.muon where id_muon='"+id_muon+"'");
             while (res.next()){
                 masv=res.getString(1);
             }

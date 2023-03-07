@@ -72,7 +72,8 @@ public class DBQl_muon {
         List<Muon_sach> list=new ArrayList<>();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet res=st.executeQuery("SELECT id_muon, id_sach, muon.ma_sv, luot_muon, ngay_muon, ngay_tra, trang_thai FROM muon left join sinh_vien on muon.ma_sv=sinh_vien.ma_sv where ten_sv like '%"+ten+"%' and trang_thai='"+status+"'");
+            ResultSet res=st.executeQuery("SELECT id_muon, id_sach, muon.ma_sv, luot_muon, ngay_muon, ngay_tra, trang_thai " +
+                    "FROM muon left join sinh_vien on muon.ma_sv=sinh_vien.ma_sv where ten_sv like '%"+ten+"%' and trang_thai='"+status+"'");
             while (res.next()){
                 int id=res.getInt(1);
                 int id_sach=res.getInt(2);
@@ -99,7 +100,7 @@ public class DBQl_muon {
             PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO muon(id_sach, ma_sv, luot_muon, ngay_tra) VALUES (?,?,?,?)");
             pre.setInt(1, muon_sach.getSach().getId());
             pre.setString(2, muon_sach.getSinh_vien().getMa_sv());
-            pre.setInt(3, 1);
+            pre.setInt(3, 0);
             pre.setString(4, muon_sach.getNgay_tra());
             pre.executeUpdate();
         }catch (Exception e){
@@ -117,7 +118,7 @@ public class DBQl_muon {
                 break;
             }
         }catch (Exception e){
-            System.out.println(e);
+            luotmuon=0;
         }
         return luotmuon;
     }
@@ -149,6 +150,6 @@ public class DBQl_muon {
 
     public static void main(String[] args) {
         DBQl_muon dbQl_muon=new DBQl_muon();
-        System.out.println(dbQl_muon.Ngay_tra("B19DCCN003"));
+        System.out.println(dbQl_muon.getLuotmuon("B19DCCN005"));
     }
 }

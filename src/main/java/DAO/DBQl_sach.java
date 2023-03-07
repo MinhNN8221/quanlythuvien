@@ -21,7 +21,7 @@ public class DBQl_sach {
         Nhan_vien nhan_vien=new Nhan_vien();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * FROM sach");
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.sach");
             while (resultSet.next()){
                 int id=resultSet.getInt("id_sach");
                 int id_ls=resultSet.getInt("id_loai_sach");
@@ -49,7 +49,7 @@ public class DBQl_sach {
         Nhan_vien nhan_vien=new Nhan_vien();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * FROM sach where id_sach='"+id_sach+"'");
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.sach where id_sach='"+id_sach+"'");
             while (resultSet.next()){
                 int id=resultSet.getInt("id_sach");
                 int id_ls=resultSet.getInt("id_loai_sach");
@@ -75,7 +75,7 @@ public class DBQl_sach {
         List<Loai_sach> list=new ArrayList<>();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * FROM loai_sach");
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.loai_sach");
             while (resultSet.next()){
                 int id_ls=resultSet.getInt(1);
                 String ten_ls=resultSet.getString(2);;
@@ -92,7 +92,7 @@ public class DBQl_sach {
         List<Vi_tri> list=new ArrayList<>();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * FROM vi_tri");
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.vi_tri");
             while (resultSet.next()){
                 int id_vt=resultSet.getInt(1);
                 String ten_vt=resultSet.getString(2);
@@ -109,7 +109,7 @@ public class DBQl_sach {
         List<Tac_gia> list=new ArrayList<>();
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * FROM tac_gia");
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.tac_gia");
             while (resultSet.next()){
                 int id_tg=resultSet.getInt(1);
                 String ten_tg=resultSet.getString(2);
@@ -139,12 +139,14 @@ public class DBQl_sach {
             System.out.println(e);
         }
     }
-    public void getXoasach(int id_sach){
+    public boolean getXoasach(int id_sach){
         try {
             Statement st=db.getCon().createStatement();
-            st.executeUpdate("DELETE from sach where id_sach='"+id_sach+"'");
+            st.executeUpdate("DELETE from ttcs.sach where id_sach='"+id_sach+"'");
+            return true;
         }catch (Exception e){
-            System.out.println(e);
+            return false;
+//            System.out.println(e);
         }
     }
     public List<Sach> getTimkiem(String ten_sach){
@@ -152,7 +154,7 @@ public class DBQl_sach {
         Nhan_vien nhan_vien=new Nhan_vien();
         try{
             Statement st= db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT * from sach where ten_sach like '%"+ten_sach+"%'");
+            ResultSet resultSet=st.executeQuery("SELECT * from ttcs.sach where ten_sach like '%"+ten_sach+"%'");
             while (resultSet.next()){
                 int id=resultSet.getInt("id_sach");
                 int id_ls=resultSet.getInt("id_loai_sach");
@@ -179,7 +181,7 @@ public class DBQl_sach {
     public int getThemsach(Sach sach){
         int result=0;
         try {
-            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO sach(id_loai_sach, id_vt, id_tac_gia, ten_sach, solg_bd, solg_clai, id_nv) VALUE (?, ?, ?, ?, ?, ?, ?)");
+            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO ttcs.sach(id_loai_sach, id_vt, id_tac_gia, ten_sach, solg_bd, solg_clai, id_nv) VALUE (?, ?, ?, ?, ?, ?, ?)");
             pre.setInt(1, sach.getLoai_sach().getId_ls());
             pre.setInt(2, sach.getVi_tri().getId_vt());
             pre.setInt(3, sach.getTac_gia().getId_tg());
@@ -196,7 +198,7 @@ public class DBQl_sach {
 
     public void getUpdateSlg(int solg, int id){
         try {
-            PreparedStatement pre=db.getCon().prepareStatement("UPDATE sach set solg_clai=? where id_sach=?");
+            PreparedStatement pre=db.getCon().prepareStatement("UPDATE ttcs.sach set solg_clai=? where id_sach=?");
             pre.setInt(1, solg);
             pre.setInt(2, id);
             pre.executeUpdate();
@@ -209,7 +211,7 @@ public class DBQl_sach {
         int slg=0;
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet resultSet=st.executeQuery("SELECT solg_clai from sach where id_sach='"+id+"'");
+            ResultSet resultSet=st.executeQuery("SELECT solg_clai from ttcs.sach where id_sach='"+id+"'");
             while (resultSet.next()){
                 slg=resultSet.getInt(1);
             }
@@ -217,6 +219,27 @@ public class DBQl_sach {
             System.out.println(e);
         }
         return slg;
+    }
+
+    public Tac_gia getTac_gia1(String ten){
+        Tac_gia tac_gia=new Tac_gia();
+        try {
+            Statement st=db.getCon().createStatement();
+            ResultSet resultSet=st.executeQuery("SELECT * FROM ttcs.tac_gia where ten_tac_gia ='"+ten+"'");
+            while (resultSet.next()){
+                int id_tg=resultSet.getInt(1);
+                String ten_tg=resultSet.getString(2);
+                String diachi=resultSet.getString(3);
+                Tac_gia tg=new Tac_gia(id_tg, ten_tg, diachi);
+                tac_gia.setId_tg(id_tg);
+                tac_gia.setTen_tg(ten_tg);
+                tac_gia.setDia_chi(diachi);
+            }
+            return tac_gia;
+        }catch (Exception e){
+            System.out.println(e);
+        }
+        return null;
     }
     public static void main(String[] args) {
         DBQl_sach dbQl_sach=new DBQl_sach();
@@ -237,5 +260,10 @@ public class DBQl_sach {
 //        sach.setNhan_vien(nhan_vien);
         Sach sach=new Sach(4, loai_sach, vi_tri, tac_gia, "tên sách", 20, 15, nhan_vien);
         dbQl_sach.getThemsach(sach);
+
+
+
+        Tac_gia tac_gia1=dbQl_sach.getTac_gia1("Nguyễn Đức Nghĩa");
+        System.out.println(tac_gia1.getDia_chi());
     }
 }

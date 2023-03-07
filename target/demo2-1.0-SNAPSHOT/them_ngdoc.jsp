@@ -35,7 +35,7 @@
             <label>Số lượng</label><br>
             <input class="input" type="number" name="sl_bd" value="1" readonly><br>
             <label>Ngày phải trả</label><br>
-            <input class="input" type="date" name="date" id="date"><br>
+            <input class="input" type="date" name="date" id="date" required><br>
             <button type="submit" name="themsv" class="submit" value="${sach.id}">Thêm sách</button>
             <input type="button" value="Trở lại" class="submit" onclick="location.href='${pageContext.request.contextPath}/qlmuon'">
         </form>

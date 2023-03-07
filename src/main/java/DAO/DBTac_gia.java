@@ -12,7 +12,7 @@ public class DBTac_gia {
     public Tac_gia getTen_tg(int id_tg){
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet res=st.executeQuery("SELECT * FROM tac_gia WHERE id_tac_gia='"+id_tg+"'");
+            ResultSet res=st.executeQuery("SELECT * FROM ttcs.tac_gia WHERE id_tac_gia='"+id_tg+"'");
             while (res.next()){
                 int id=res.getInt(1);
                 String ten_tg=res.getString(2);

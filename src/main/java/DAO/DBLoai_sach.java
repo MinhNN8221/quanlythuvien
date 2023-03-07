@@ -13,7 +13,7 @@ public class DBLoai_sach {
     public Loai_sach getLoai_sach(int id){
         try {
             Statement st=db.getCon().createStatement();
-            ResultSet res=st.executeQuery("SELECT * FROM loai_sach where id_loai_sach='"+id+"'");
+            ResultSet res=st.executeQuery("SELECT * FROM ttcs.loai_sach where id_loai_sach='"+id+"'");
             while (res.next()) {
                 int id1 = res.getInt(1);
                 String ten_loai_sach = res.getString(2);
@@ -28,7 +28,7 @@ public class DBLoai_sach {
     public int getThemloaisach(Loai_sach loai_sach){
         int result=0;
         try {
-            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO loai_sach(ten_loai_sach) VALUE (?)");
+            PreparedStatement pre=db.getCon().prepareStatement("INSERT INTO ttcs.loai_sach(ten_loai_sach) VALUE (?)");
             pre.setString(1, loai_sach.getTen_ls());
             result=pre.executeUpdate();
         }catch (Exception e){

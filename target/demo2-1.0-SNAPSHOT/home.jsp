@@ -14,11 +14,11 @@
     <div class="about">
         <h2>Danh sách thành viên nhóm 3:</h2>
         <ul>
-            <li><h3>Nguyễn Ngọc Minh</h3></li>
-            <li><h3>Phạm Thị Ngọc Diễm</h3></li>
-            <li><h3>Trần Ngọc Hoà</h3></li>
-            <li><h3>Cao Thành Huy</h3></li>
-            <li><h3>Nguyễn Văn Dũng</h3></li>
+            <li><h3>Cao Thành Huy - B19DCCN303</h3></li>
+            <li><h3>Phạm Thị Ngọc Diễm - B19DCCN111</h3></li>
+            <li><h3>Nguyễn Văn Dũng - B19DCCN129</h3></li>
+            <li><h3>Trần Ngọc Hòa - B19DCCN267</h3></li>
+            <li><h3>Nguyễn Ngọc Minh - B19DCCN435</h3></li>
         </ul>
     </div>
 </body>

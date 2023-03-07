@@ -2,22 +2,55 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="QuanLiThuVien" />
+      <artifact name="QuanLiThuVien:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af4b3969-cf88-44dc-ab20-c65bb299c0e7" name="Changes" comment="">
+    <list default="true" id="af4b3969-cf88-44dc-ab20-c65bb299c0e7" name="Changes" comment="updateSendEmail">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/QuanLiThuVien.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/QuanLiThuVien_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/QuanLiThuVien_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsp_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GuiEmailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GuiEmailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chitiet_sv.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/chitiet_sv.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/chinhsua_sach.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/chinhsua_sach.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ds_tra.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ds_tra.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLiThuVien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLiThuVien.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBLoai_sach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBLoai_sach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBQlSinh_vien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBQlSinh_vien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBQl_muon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBQl_muon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBQl_sach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBQl_sach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBTac_gia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBTac_gia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DBVi_tri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DBVi_tri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/DBQl_muon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/DBQl_muon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/DBQl_sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/DBQl_sach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/GuiEmailServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/GuiEmailServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/GuiEmailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/GuiEmailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ThemsvServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ThemsvServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Xoa_SachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Xoa_SachServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_muon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_muon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/DAO/DBQl_sach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/GuiEmailServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/GuiEmailServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/GuiEmailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/GuiEmailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsvServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/ThemsvServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/Xoa_SachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/classes/controller/Xoa_SachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/them_ngdoc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/them_ngdoc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themloaisach.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themloaisach.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themtacgia.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themtacgia.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themvitri.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo2-1.0-SNAPSHOT/themvitri.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +68,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="JspContextManager">
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/ds_muon.jsp" />
   </component>
@@ -51,7 +99,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -61,34 +109,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/ttcs-main/ttcs-main" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.30804598" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Java/LIB_JAVA/javax.servlet-api-4.0.1.jar",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43563217"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.62">
+    <configuration name="DBQl_sach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAO.DBQl_sach" />
+      <module name="QuanLiThuVien" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/QuanLiThuVien" />
+      <option name="OPEN_IN_BROWSER_URL" value="https://localhost:8443/QuanLiThuVien_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="QuanLiThuVien">
+        <artifact name="QuanLiThuVien:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/QuanLiThuVien" />
+            <option name="CONTEXT_PATH" value="/QuanLiThuVien_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_62_ttcs-main_4" />
-        <option name="HTTP_PORT" value="8080" />
-        <option name="JNDI_PORT" value="1090" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_62_ttcs-main_6" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -128,6 +192,21 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -146,7 +225,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="QuanLiThuVien" />
+          <artifact name="QuanLiThuVien:war exploded" />
         </option>
       </method>
     </configuration>
@@ -213,6 +292,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBQl_sach" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -240,103 +324,109 @@
       <workItem from="1653408613700" duration="34000" />
       <workItem from="1653410403992" duration="897000" />
       <workItem from="1653412023088" duration="8147000" />
-      <workItem from="1653469971638" duration="8792000" />
+      <workItem from="1653469971638" duration="9275000" />
+      <workItem from="1653488426403" duration="8320000" />
+      <workItem from="1653541391930" duration="1824000" />
+      <workItem from="1653557803444" duration="2185000" />
+      <workItem from="1653562663174" duration="66000" />
+      <workItem from="1654053868512" duration="7000" />
+      <workItem from="1654189556001" duration="915000" />
+      <workItem from="1654260953765" duration="4000" />
+      <workItem from="1654657109346" duration="1000" />
+      <workItem from="1654786870184" duration="1102000" />
+      <workItem from="1654840920269" duration="1177000" />
+      <workItem from="1654842118557" duration="6482000" />
+      <workItem from="1654879865788" duration="6194000" />
+      <workItem from="1655013855387" duration="8540000" />
+      <workItem from="1655041748847" duration="1724000" />
+      <workItem from="1655052965537" duration="3445000" />
+      <workItem from="1655142940262" duration="1387000" />
+      <workItem from="1655188686108" duration="1281000" />
+      <workItem from="1655274800597" duration="598000" />
+      <workItem from="1655468651619" duration="3000" />
+      <workItem from="1655565737879" duration="2142000" />
+      <workItem from="1655718638423" duration="5697000" />
+      <workItem from="1655986335320" duration="1203000" />
+      <workItem from="1656129862007" duration="2000" />
+      <workItem from="1656327970842" duration="101000" />
+      <workItem from="1658747481779" duration="542000" />
+      <workItem from="1663479901652" duration="6000" />
+      <workItem from="1663480594411" duration="492000" />
+      <workItem from="1663481500928" duration="62000" />
+      <workItem from="1663483530189" duration="505000" />
+      <workItem from="1663484511320" duration="517000" />
+      <workItem from="1663485865778" duration="335000" />
+      <workItem from="1663486333492" duration="265000" />
+      <workItem from="1663853932226" duration="97000" />
+      <workItem from="1664284573112" duration="469000" />
+      <workItem from="1664591841710" duration="78000" />
+      <workItem from="1666408002818" duration="132000" />
+      <workItem from="1666408167934" duration="22000" />
+      <workItem from="1666410471691" duration="350000" />
+      <workItem from="1666709938379" duration="1355000" />
+      <workItem from="1666976158393" duration="26000" />
+      <workItem from="1668525386878" duration="24000" />
+      <workItem from="1668624172066" duration="480000" />
+      <workItem from="1668700515123" duration="602000" />
+      <workItem from="1669006181890" duration="10000" />
+      <workItem from="1669910720288" duration="1039000" />
+      <workItem from="1670039859754" duration="22000" />
+      <workItem from="1670234753984" duration="545000" />
+      <workItem from="1670248789197" duration="495000" />
+      <workItem from="1670249485096" duration="35000" />
+      <workItem from="1670859193574" duration="59000" />
+      <workItem from="1670859301784" duration="625000" />
+      <workItem from="1670922687803" duration="9000" />
+      <workItem from="1670988448347" duration="5000" />
+      <workItem from="1671033968612" duration="42000" />
+      <workItem from="1671875739232" duration="168000" />
+      <workItem from="1672281457297" duration="12000" />
+      <workItem from="1672281503890" duration="15000" />
+      <workItem from="1672672005913" duration="6372000" />
+      <workItem from="1672684694606" duration="4605000" />
+      <workItem from="1672734263036" duration="7777000" />
+      <workItem from="1672774370854" duration="3477000" />
+      <workItem from="1672778146069" duration="1285000" />
+      <workItem from="1672905592927" duration="1477000" />
+      <workItem from="1672913944702" duration="594000" />
+      <workItem from="1673882969198" duration="33000" />
+      <workItem from="1676290514543" duration="1817000" />
+      <workItem from="1676293488049" duration="496000" />
+      <workItem from="1676294274020" duration="1071000" />
+      <workItem from="1676566497854" duration="23000" />
+      <workItem from="1677425523773" duration="19000" />
+      <workItem from="1678216115637" duration="825000" />
     </task>
+    <task id="LOCAL-00001" summary="updateSendEmail">
+      <created>1678216837525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678216837525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/demo_proj_ttcs" />
       <path value="$PROJECT_DIR$/ttcs" />
     </ignored-roots>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="133" y="0" key="#Project_Structure" timestamp="1653281201301">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="133" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1653281201301" />
-    <state x="574" y="219" key="#Tomcat_Server" timestamp="1653281166488">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="574" y="219" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1653281166488" />
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653476150302">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653476150302" />
-    <state x="458" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1653209410001">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="458" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1653209410001" />
-    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1653281169062">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="370" y="0" width="847" height="680" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1653281169062" />
-    <state x="490" y="72" key="FileChooserDialogImpl" timestamp="1653473404704">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="490" y="72" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1653473404704" />
-    <state width="834" height="198" key="GridCell.Tab.0.bottom" timestamp="1653478747516">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653478747516" />
-    <state width="834" height="198" key="GridCell.Tab.0.center" timestamp="1653478747515">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653478747515" />
-    <state width="834" height="198" key="GridCell.Tab.0.left" timestamp="1653478747514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653478747514" />
-    <state width="834" height="198" key="GridCell.Tab.0.right" timestamp="1653478747516">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653478747516" />
-    <state width="834" height="198" key="GridCell.Tab.1.bottom" timestamp="1653478747517">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653478747517" />
-    <state width="834" height="198" key="GridCell.Tab.1.center" timestamp="1653478747517">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1653478747517" />
-    <state width="834" height="198" key="GridCell.Tab.1.left" timestamp="1653478747517">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1653478747517" />
-    <state width="834" height="198" key="GridCell.Tab.1.right" timestamp="1653478747517">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1653478747517" />
-    <state width="834" height="198" key="GridCell.Tab.2.bottom" timestamp="1653478747518">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653478747518" />
-    <state width="834" height="198" key="GridCell.Tab.2.center" timestamp="1653478747518">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1653478747518" />
-    <state width="834" height="198" key="GridCell.Tab.2.left" timestamp="1653478747518">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1653478747518" />
-    <state width="834" height="198" key="GridCell.Tab.2.right" timestamp="1653478747518">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="834" height="198" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1653478747518" />
-    <state x="69" y="0" key="SettingsEditor" timestamp="1653476725425">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="69" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1653476725425" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1653322177783">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653322177783" />
-    <state x="312" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652698274655">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="312" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1652698274655" />
+    <MESSAGE value="updateSendEmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="updateSendEmail" />
   </component>
 </project>
